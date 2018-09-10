@@ -5,3 +5,4 @@ http://www.alidemirci.net adresindeki blogum için konu ararken aklıma gelen bi
 Güzel çalışmalarda kullanmanız dilekleriyle :)
 
 DEMO: http://www.alidemirci.net/ornekler/html5-css3-animasyonlu-dikey-menu/
+BLOG LİNKİ: http://www.alidemirci.net/html5-ve-css3-ile-animasyonlu-dikey-menu.html
