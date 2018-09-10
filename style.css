@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: url('bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.page {
+    margin-top: 200px;
+}
+
+ul.menu {
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #ecf0f1;
+}
+
+ul.menu li {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+}
+
+ul.menu li a {
+    display: block;
+    color: #7f8c8d;
+    font-weight: 400;
+    padding: 20px 120px 20px 20px;
+
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+ul.menu li:first-child {
+    border-top: 0px;
+}
+
+ul.menu li:last-child {
+    border-bottom: 0px;
+}
+
+
+ul.menu li:nth-child(1) {
+    border-left: 15px solid #f0c330;
+    background-image: linear-gradient(to right, #f0c330 50%, #ecf0f1 50%);
+    background-size: 201% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-right-radius: -radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
+
+ul.menu li:nth-child(2) {
+    border-left: 15px solid #f19b2c;
+    background-image: linear-gradient(to right, #f19b2c 50%, #ecf0f1 50%);
+    background-size: 201% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+ul.menu li:nth-child(3) {
+    border-left: 15px solid #e47e30;
+    background-image: linear-gradient(to right, #e47e30 50%, #ecf0f1 50%);
+    background-size: 201% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+ul.menu li:nth-child(4) {
+    border-left: 15px solid #d15419;
+    background-image: linear-gradient(to right, #d15419 50%, #ecf0f1 50%);
+    background-size: 201% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+ul.menu li:nth-child(5) {
+    border-left: 15px solid #e54d42;
+    background-image: linear-gradient(to right, #e54d42 50%, #ecf0f1 50%);
+    background-size: 201% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+ul.menu li:nth-child(6) {
+    border-left: 15px solid #be3a31;
+    background-image: linear-gradient(to right, #be3a31 50%, #ecf0f1 50%);
+    background-size: 201% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    border-bottom-left-radius: 10px;
+    -moz-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+ul.menu li:hover {
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    background-position: bottom left;
+}
+
+ul.menu li:hover a {
+    color: #fff;
+    -webkit-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+a.copyright {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #ecf0f1;
+}
+
+a.copyright:hover {
+    text-decoration: underline;
+}
